@@ -1,0 +1,40 @@
+# Editor settings
+.vscode/
+.idea/
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments and local env files
+.env
+.env.*
+.venv/
+venv/
+env/
+
+# Runtime logs and temporary files
+*.log
+*.out
+*.pid
+*.tmp
+
+# Benchmark and experiment outputs
+bench_results/
+outputs/
+results/
+runs/
+wandb/
+
+# OS files
+.DS_Store
+Thumbs.db
